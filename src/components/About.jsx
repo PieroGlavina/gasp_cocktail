@@ -26,7 +26,7 @@ const About = () => {
                 ease: "expo.out",
                 stagger: 0.02,
             })
-            .from("-top-grid div, .bottom-grid div", {
+            .from(".top-grid div, .bottom-grid div", {
                 opacity: 0,
                 duration: 1,
                 ease: "power1.inOut",
